@@ -39,7 +39,6 @@ const Alert: React.FC<AlertProps> = ({dismissible, show, type, onDismiss}) => {
               exit={{opacity: 2, scale: 0}}
               transition={{ duration: 0.5 }}
               className={alertCss}
-              onClick={onDismiss}
               role="alert"
               style={{display: show ? "flex" : "none"}}>
               <p className="m-0">A simple dark alert—check it out!</p>
