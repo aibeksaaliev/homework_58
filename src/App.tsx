@@ -39,7 +39,7 @@ function App() {
           <p>Don't take a nap</p>
         </div>
       </Modal>
-      <Alert show={showAlert} type={"warning"} onDismiss={cancelAlert}/>
+      <Alert show={showAlert} type={"warning"} dismissible onDismiss={cancelAlert}/>
       <Alert show={showPrimaryAlert} type={"primary"} onDismiss={cancelPrimaryAlert}/>
       <Alert show={showSuccessAlert} type={"success"} onDismiss={cancelSuccessAlert}/>
       <Alert show={showDangerAlert} type={"danger"} onDismiss={cancelDangerAlert}/>

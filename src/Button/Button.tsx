@@ -7,7 +7,7 @@ interface ButtonProps {
 }
 
 const Button: React.FC<ButtonProps> = ({name, buttonType, onClick}) => {
-  const buttonCss: string = "w-25 btn btn-" + buttonType;
+  const buttonCss: string = "w-50 btn btn-" + buttonType;
 
   return (
     <>
